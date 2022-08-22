@@ -1,0 +1,95 @@
+* {
+    box-sizing:inherit;
+    padding: 0;
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    background-color: #ffffff;
+}
+/*header*/
+ header {
+    padding: 25px;
+    font-family: 'Courier New';
+    background-color:whitesmoke;
+    color: black;
+}
+
+header h1 {
+    display:inline-flex;
+    font-size: 30px;
+}
+/*make my last name different color*/
+header h1 .Park {
+color:rgb(5, 39, 175);
+}
+/*nav*/
+header nav {
+    float: right;
+    font-size: 20px;
+    display: inline-block;
+    font-family: 'Courier New';
+}
+
+header nav ul {
+    list-style-type: none;
+    display: inline-block;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin: 20px;
+}
+
+a {
+    color:black;
+    text-decoration: none;
+}
+
+p {
+    font-size: 25px;
+}
+
+.main-me {
+    height: 700px;
+    width: 100%;
+    margin-bottom: 15px;
+    background-image: url("../images/Backround\ for\ Profressional\ Portfolio.png");
+    background-size: cover;
+    background-position: center;
+
+}
+
+.content {
+    width: 100%;
+    display: inline-block;
+    margin: 30px 30px 30px 0px;
+}
+
+.nav-buttons {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family:'Courier New', Courier, monospace;
+    background-color: black;
+    color: #ffffff;
+    
+}
+
+.nav-buttons h2{
+    margin-bottom: 40px;
+    font-size: 60px;
+    text-align: center;
+}
+.contact-form{
+    padding: 20px;
+    height: 600px;
+    margin-top: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: black;
+    color: whitesmoke;
+    font-style: bold;
+    font-size: 35px;
+    text-align: center;
+}
