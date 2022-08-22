@@ -3,6 +3,7 @@
     padding: 0;
     margin: 0;
     font-family: 'Courier New', Courier, monospace;
+
 }
 
 body {
@@ -30,6 +31,7 @@ header nav {
     font-size: 20px;
     display: inline-block;
     font-family: 'Courier New';
+    
 }
 
 header nav ul {
@@ -58,7 +60,9 @@ p {
     background-image: url("../images/Backround\ for\ Profressional\ Portfolio.png");
     background-size: cover;
     background-position: center;
-
+    outline-style: ridge;
+    outline-width: medium;
+    outline-color: black;
 }
 
 .content {
@@ -74,6 +78,10 @@ p {
     font-family:'Courier New', Courier, monospace;
     background-color: black;
     color: #ffffff;
+    outline-style:ridge;
+    outline-width: medium;
+    outline-color: rgb(5, 39, 175);
+    border-radius: 25px;
     
 }
 
@@ -87,9 +95,10 @@ p {
     height: 600px;
     margin-top: 20px;
     font-family: 'Courier New', Courier, monospace;
-    background-color: black;
-    color: whitesmoke;
+    background-color: whitesmoke;
+    color: black;
     font-style: bold;
     font-size: 35px;
     text-align: center;
+    border-radius: 25px;
 }
