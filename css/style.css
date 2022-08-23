@@ -13,8 +13,8 @@ body {
  header {
     padding: 25px;
     font-family: 'Courier New';
-    background-color:whitesmoke;
-    color: black;
+    background-image: url("../images/Backround\ for\ Profressional\ Portfolio.png");
+    color: white;
 }
 
 header h1 {
@@ -23,13 +23,13 @@ header h1 {
 }
 /*make my last name different color*/
 header h1 .Park {
-color:rgb(5, 39, 175);
+color:rgb(194, 202, 196);
 }
 /*nav*/
 header nav {
     float: right;
     font-size: 20px;
-    display: inline-block;
+    display: inline-flex;
     font-family: 'Courier New';
     
 }
@@ -45,7 +45,7 @@ header nav ul li {
 }
 
 a {
-    color:black;
+    color:white;
     text-decoration: none;
 }
 
@@ -62,7 +62,7 @@ p {
     background-position: center;
     outline-style: ridge;
     outline-width: medium;
-    outline-color: black;
+    outline-color: white;
 }
 
 .content {
@@ -77,7 +77,7 @@ p {
     height: 300px;
     font-family:'Courier New', Courier, monospace;
     background-color: black;
-    color: #ffffff;
+    color:white;
     outline-style:ridge;
     outline-width: medium;
     outline-color: rgb(5, 39, 175);
@@ -102,3 +102,88 @@ p {
     text-align: center;
     border-radius: 25px;
 }
+/*Style input for contact me form*/
+    input[type=text], select, textarea {
+    width: 100%; 
+    padding: 10px; 
+    border: 1px solid #ccc;
+    border-radius: 25px; 
+    box-sizing: border-box; 
+    margin-bottom: 10px; 
+    resize: vertical 
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-image: url("../images/Backround\ for\ Profressional\ Portfolio.png");
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor:pointer;
+  }
+  
+  /* add black over the submit button */
+  input[type=submit]:hover {
+    background-color: black;
+  }
+  
+  /* Add a background color and some padding around the form */
+  .container {
+    border-radius: 5px;
+    background-color: whitesmoke;
+    padding: 50px;
+  }
+  footer.h3{
+    text-align: center;
+  }
+  .container {
+    position: relative;
+  }
+  .text-block{
+    position: absolute;
+    margin: 0;
+    background-color: pink;
+    color:#ffffff;
+
+
+    .pfp{
+        flex: 1 0 0;
+        padding: 10px;
+        text-align: center;
+        border-style: solid;
+        border-width: 1px;
+      }
+      
+      .pfp header {
+        padding: 20px;
+        background: #13293d;
+        color: #fff;
+      }
+      
+      .pfp img {
+        width: 100%;
+        min-width: 400px;
+      }
+      
+      /* Tablets - header changes color */
+@media screen and (max-width: 992px) {
+    header {
+      background: #772014;
+    }
+  }
+  
+  /* Large smartphones - navbar changes color */
+  @media screen and (max-width: 768px) {
+    nav {
+      background-color: #bb8588;
+    }
+  }
+  
+  /* Small smartphones - image placeholders change color */
+  @media screen and (max-width: 576px) {
+    .sample-img {
+      background-color: #8ac4ff;
+    }
+  }
+  
