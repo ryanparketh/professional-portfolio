@@ -16,7 +16,6 @@
             <ul>
                 <li><a href="#About-Me">About Me</a></li>
                 <li><a href="#Work">Work</a></li>
-                <li><a href="#Resume">Resume</a></li>
                 <li><a href="#Contact-Me">Contact Me</a></li>
             </ul>
         </nav>
@@ -24,12 +23,13 @@
 
     <main class="content">
         <section class="main-me">
-            <div class="pfp">
-                <img src="/images/Raincoat Creature.jpeg" alt="creature world nft">
+            <div style="width:200px">
+              <img src="raincoat-creature.jpeg" alt="creature world nft" width="250"/>
+              <br/>
                     <p>
-                        Who Am I?
+                            Hi my name is Ryan Park.
                     </p>
-            </div>
+                </div>
         </section>
         <!--ABOUT ME-->
         <section id="About-Me" class="nav-buttons">
@@ -39,24 +39,15 @@
             </p>
         </section>
         <!--WORK-->
-        <section id="Work" class="nav-buttons">
+        <section id="Work" class="nav-work" </section>
             <h2>Work</h2>
             <p>
                 display my work
             </p>
         </section>
-        <!--RESUME-->
-        <section id="Resume" class="nav-buttons">
-            <h2>Resume</h2>
-            <p>
-                link resume
-            </p>
-        </section>
         <!--CONTACT ME-->
         <!--Contact me section with brief descr of my info to reach me at also make so it takes them to a new page when clicked-->
-        <div class="container">
-            <form action="action_page.php">
-                <section id="#Contact-Me" class="contact-form">
+                <section id="#Contact-Me" class="nav-contact">
                     <h2>Contact Me</h2>
                     <h5 for="subject">Have a question, or want to work together?</h5>
                     <input type="text" id="fname" name="firstname" placeholder="Name..">
@@ -65,7 +56,7 @@
 
                     <textarea id="subject" name="subject" placeholder="Your Message.." style="height:200px"></textarea>
 
-                    <input type="submit" value="Submit">
+                    <input type="submit" value="Submit" <a href="mailto:ryanpark@rocketmail.com"></a>
 
             </form>
         </div>
@@ -77,10 +68,16 @@
 
         </aside>
         <footer>
+            <section id="Direct-Contact" class="nav-direct">
             <h3>Direct Contact</h3>
-            <p>
-                289-230-2175    ryanpark@rocketmaill.com    GitHub  Twitter     LinkedIn
+            <p>     
+                <a href="mailto:ryanpark@rocketmail.com">ryanpark@rocketmail.com</a>       
+                
             </p>
+            <p>
+                <a href="289-230-2175">289-230-2175</a>
+            </p>
+            </section>
         </footer>
     </main>
 </body>

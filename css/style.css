@@ -13,7 +13,7 @@ body {
  header {
     padding: 25px;
     font-family: 'Courier New';
-    background-image: url("../images/Backround\ for\ Profressional\ Portfolio.png");
+    background-image: url("../images/back-pro-port.png");
     color: white;
 }
 
@@ -25,12 +25,15 @@ header h1 {
 header h1 .Park {
 color:rgb(194, 202, 196);
 }
+
+
 /*nav*/
 header nav {
     float: right;
     font-size: 20px;
     display: inline-flex;
     font-family: 'Courier New';
+    
     
 }
 
@@ -52,17 +55,23 @@ a {
 p {
     font-size: 25px;
 }
-
+/* MAIN SECTION*/
 .main-me {
     height: 700px;
     width: 100%;
     margin-bottom: 15px;
-    background-image: url("../images/Backround\ for\ Profressional\ Portfolio.png");
+    background-image: url("../images/back-pro-port.png");
     background-size: cover;
     background-position: center;
     outline-style: ridge;
     outline-width: medium;
     outline-color: white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    border-radius: 25px;
 }
 
 .content {
@@ -85,12 +94,27 @@ p {
     
 }
 
+.nav-work {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family:'Courier New', Courier, monospace;
+    background-color: black;
+    color:white;
+    outline-style:ridge;
+    outline-width: medium;
+    outline-color: rgb(5, 39, 175);
+    border-radius: 25px;
+    font-size: 40px;
+    text-align: center;
+    
+}
 .nav-buttons h2{
     margin-bottom: 40px;
     font-size: 60px;
     text-align: center;
 }
-.contact-form{
+.nav-contact{
     padding: 20px;
     height: 600px;
     margin-top: 20px;
@@ -103,7 +127,8 @@ p {
     border-radius: 25px;
 }
 /*Style input for contact me form*/
-    input[type=text], select, textarea {
+    
+input[type=text], select, textarea {
     width: 100%; 
     padding: 10px; 
     border: 1px solid #ccc;
@@ -115,7 +140,7 @@ p {
   
   /* Style the submit button with a specific background color etc */
   input[type=submit] {
-    background-image: url("../images/Backround\ for\ Profressional\ Portfolio.png");
+    background-image: url("../images/back-pro-port.png");
     color: white;
     padding: 12px 20px;
     border: none;
@@ -140,50 +165,42 @@ p {
   .container {
     position: relative;
   }
-  .text-block{
-    position: absolute;
-    margin: 0;
-    background-color: pink;
-    color:#ffffff;
-
-
-    .pfp{
-        flex: 1 0 0;
-        padding: 10px;
-        text-align: center;
-        border-style: solid;
-        border-width: 1px;
-      }
-      
-      .pfp header {
-        padding: 20px;
-        background: #13293d;
-        color: #fff;
-      }
-      
-      .pfp img {
-        width: 100%;
-        min-width: 400px;
-      }
       
       /* Tablets - header changes color */
 @media screen and (max-width: 992px) {
     header {
-      background: #772014;
+      background: black;
     }
   }
   
   /* Large smartphones - navbar changes color */
   @media screen and (max-width: 768px) {
     nav {
-      background-color: #bb8588;
+      background-color: blue;
+      border-radius: 20px;
+      
     }
   }
   
-  /* Small smartphones - image placeholders change color */
-  @media screen and (max-width: 576px) {
-    .sample-img {
-      background-color: #8ac4ff;
-    }
-  }
-  
+  .nav-direct {
+    margin-bottom: 0px;
+    padding: 50px;
+    height: 100px;
+    font-family:'Courier New', Courier, monospace;
+    background-color: black;
+    color:white;
+    outline-style:ridge;
+    outline-width: medium;
+    outline-color: rgb(5, 39, 175);
+    border-top: 25px;
+    text-align: center;
+}
+
+.nav-direct h3{
+    font-size: 40px;
+}
+
+.nav-direct p {
+    position: relative;
+    text-decoration: underline;
+}
