@@ -197,10 +197,22 @@ input[type=text], select, textarea {
 }
 
 .flexbox-item {
-    width: 100px;
+    width: 400px;
     margin: 10px;
     border-radius: 10px;
-    background-color: aqua;
-  
+  border: blue;
+  border-radius: 15px;
+  flex-grow: 5px;
+  cursor: pointer;
+}
 
+.flexbox-item-1 {
+    background-image: url(../images/mountains.png);
+    width: 400px;
+}
+.flexbox-item-3 {
+    background-image: url(../images/fire.png);
+}
+.flexbox-item-2 {
+  background: url(../images/water.png);
 }
