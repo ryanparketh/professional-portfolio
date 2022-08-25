@@ -170,16 +170,15 @@ input[type=text], select, textarea {
   }
   
   .nav-direct {
-    margin-bottom: 0px;
+    border-radius: 25px;
     padding: 50px;
-    height: 100px;
+    height: 80px;
     font-family:'Courier New', Courier, monospace;
     background-color: black;
     color:white;
     outline-style:ridge;
     outline-width: medium;
     outline-color: rgb(5, 39, 175);
-    border-top: 25px;
     text-align: center;
 }
 
@@ -192,10 +191,14 @@ input[type=text], select, textarea {
     text-decoration: underline;
 }
 
-.work-apps {
+.flexbox-container {
     display: flex;
-    flex-direction:row;
-    justify-content: center;
-    border-style: double;
-  
+}
+
+.flexbox-item {
+    width: 100px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: aqua;
+
 }
