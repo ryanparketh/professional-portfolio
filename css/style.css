@@ -117,7 +117,7 @@ p {
 .nav-contact{
     padding: 20px;
     height: 600px;
-    margin-top: 20px;
+    margin:55px
     font-family: 'Courier New', Courier, monospace;
     background-color: whitesmoke;
     color: black;
@@ -180,6 +180,7 @@ input[type=text], select, textarea {
     outline-width: medium;
     outline-color: rgb(5, 39, 175);
     text-align: center;
+    margin-top: 30px;
 }
 
 .nav-direct h3{
@@ -193,7 +194,7 @@ input[type=text], select, textarea {
 
 .flexbox-container {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
 }
 
 .flexbox-item {
@@ -204,6 +205,8 @@ input[type=text], select, textarea {
   border-radius: 15px;
   flex-grow: 5px;
   cursor: pointer;
+height: 250px;
+padding-top: 50px;
 }
 
 .flexbox-item-1 {
@@ -215,4 +218,8 @@ input[type=text], select, textarea {
 }
 .flexbox-item-2 {
   background: url(../images/water.png);
+}
+
+.flexbox-container:hover {
+
 }
