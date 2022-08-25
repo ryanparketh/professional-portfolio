@@ -193,6 +193,7 @@ input[type=text], select, textarea {
 
 .flexbox-container {
     display: flex;
+    justify-content: space-around;
 }
 
 .flexbox-item {
@@ -200,5 +201,6 @@ input[type=text], select, textarea {
     margin: 10px;
     border-radius: 10px;
     background-color: aqua;
+  
 
 }
