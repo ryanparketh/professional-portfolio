@@ -97,7 +97,7 @@ p {
 .nav-work {
     margin-bottom: 20px;
     padding: 50px;
-    height: 300px;
+    height: 500px;
     font-family:'Courier New', Courier, monospace;
     background-color: black;
     color:white;
@@ -153,19 +153,6 @@ input[type=text], select, textarea {
     background-color: black;
   }
   
-  /* Add a background color and some padding around the form */
-  .container {
-    border-radius: 5px;
-    background-color: whitesmoke;
-    padding: 50px;
-  }
-  footer.h3{
-    text-align: center;
-  }
-  .container {
-    position: relative;
-  }
-      
       /* Tablets - header changes color */
 @media screen and (max-width: 992px) {
     header {
@@ -203,4 +190,12 @@ input[type=text], select, textarea {
 .nav-direct p {
     position: relative;
     text-decoration: underline;
+}
+
+.work-apps {
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    border-style: double;
+  
 }
