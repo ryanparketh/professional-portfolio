@@ -1,7 +1,7 @@
 # ProfessionalPortfolio
 
 ## Description
-I used flexboxs to create a boxes that allowed me to showcase my work up to this date. 
+I used flexbox to create a boxes that allowed me to showcase my work up to this date. 
 
 [link to live website](https://ryanparketh.github.io/professional-portfolio/)
 
