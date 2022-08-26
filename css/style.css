@@ -165,8 +165,7 @@ input[type=text], select, textarea {
     nav {
       background-color: blue;
       border-radius: 20px;
-      
-    }
+       }
   }
   
   .nav-direct {
@@ -174,17 +173,18 @@ input[type=text], select, textarea {
     padding: 50px;
     height: 80px;
     font-family:'Courier New', Courier, monospace;
-    background-color: black;
     color:white;
     outline-style:ridge;
     outline-width: medium;
     outline-color: rgb(5, 39, 175);
     text-align: center;
     margin-top: 30px;
+    background-image: url("../images/back-pro-port.png");
 }
 
 .nav-direct h3{
     font-size: 40px;
+    color: white;
 }
 
 .nav-direct p {
@@ -211,7 +211,6 @@ padding-top: 50px;
 
 .flexbox-item-1 {
     background-image: url(../images/mountains.png);
-    width: 400px;
 }
 .flexbox-item-3 {
     background-image: url(../images/fire.png);
@@ -220,6 +219,7 @@ padding-top: 50px;
   background: url(../images/water.png);
 }
 
-.flexbox-container:hover {
-
+.flexbox-item :hover{
+    background-size: 400%;
+    background-color: black;
 }
